@@ -31,12 +31,6 @@ function saveReview(reviewText, arrayName) {
 function calculatePageCount(title) {
   var newTitle = title;
 
-  //if this specific use case / this specific title
-  if (title === "The Dragon in the Summer") {
-    //add another "the" to it
-    newTitle = createTitle(title);
-  }
-
   var pageCount = 0;
 
   //for loop, add 20 pages per character of title

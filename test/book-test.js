@@ -125,7 +125,7 @@ describe("book.js", function () {
     });
 
     it("should return a different book object", function () {
-      var dragonTitle = createTitle("Dragon in the Summer");
+      var dragonTitle = createTitle("The Dragon in the Summer");
       var dragonCharacter = buildMainCharacter("Dana", 25, "they/them");
       var dragonBook = writeBook(dragonTitle, dragonCharacter, "fantasy");
 
@@ -155,7 +155,7 @@ describe("book.js", function () {
 
 
     it("should decrease a different book's page count to be three quarters of what it originally was", function () {
-      var dragonTitle = createTitle("Dragon in the Summer");
+      var dragonTitle = createTitle("The Dragon in the Summer");
       var dragonCharacter = buildMainCharacter("Dana", 25, "they/them");
       var dragonBook = writeBook(dragonTitle, dragonCharacter, "fantasy");
 
